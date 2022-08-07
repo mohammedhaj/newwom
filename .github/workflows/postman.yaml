@@ -1,0 +1,69 @@
+name: Workflow Postman Collection with Slack Notifications
+
+on: ['push']
+
+jobs:
+    postman-github:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Execution Postman Collection
+          uses: matt-ball/newman-action@master
+          with:
+            apiKey: ${{ secrets.postmanApiKey }}
+            collection: 19980843-e1ea76f0-dc90-4e50-9992-f68ac667e706
+        - name: Install NodeJS
+          if: success() || failure()
+          uses: actions/setup-node@v3
+          with:
+            node-version: 16
+        - name: Install dependency
+          if: success() || failure()
+          run: |
+            npm i  newman --location=global
+            npm i  newman-reporter-allure  --location=global
+            npm i  newman-reporter-htmlextra --location=global
+            npm i  newman-reporter-slackreporter --location=global
+
+        - name: Generate Allure report
+          if: success() || failure()
+          run: |
+            newman run  https://api.getpostman.com/collections/19980843-e1ea76f0-dc90-4e50-9992-f68ac667e706?apikey=${{ secrets.postmanApiKey }} \
+            -r slackreporter,allure --reporter-allure-export allure-results --reporter-slackreporter-webhookurl ${{ secrets.SLACK_WEBHOOK_URL }}  
+
+        - name: Get Allure history
+          uses: actions/checkout@v2
+          if: always()
+          continue-on-error: true
+          with:
+            ref: gh-pages
+            path: gh-pages
+        - name: Test marketplace action
+          uses: simple-elf/allure-report-action@master
+          if: always()
+          id: allure-report
+          with:
+            allure_results: allure-results
+            gh_pages: gh-pages
+            allure_report: allure-report
+            allure_history: allure-history
+        - name: Deploy report to Github Pages
+          if: always()
+          uses: peaceiris/actions-gh-pages@v2
+          env:
+            PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            PUBLISH_BRANCH: gh-pages
+            PUBLISH_DIR: allure-history
+        # - name: Generate html report
+        #   if: success() || failure()
+        #   run: |
+        #     newman run  https://api.getpostman.com/collections/19980843-e1ea76f0-dc90-4e50-9992-f68ac667e706?apikey=${{ secrets.postmanApiKey }} \
+        #      -r slackreporter,htmlextra --reporter-htmlextra-export testArtifactsHTML/htmlreport.html 
+        # # Upload the reports to TestArtifacts directory
+        # - name: Output the results
+        #   if: always()
+        #   uses: actions/upload-artifact@v2
+        #   with:
+        #     name: Reports
+        #     path: testArtifactsHTML
+        #Check this URL ==> https://mohammedhaj.github.io/itpostman/
