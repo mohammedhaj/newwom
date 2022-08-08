@@ -1,0 +1,3 @@
+ const uuid = require('uuid')
+ let email=uuid()+'@domain.com'
+ pm.environment.set('email',email)
