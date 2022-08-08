@@ -1,0 +1,82 @@
+{
+  "uid" : "f76cfb97298ec6d5",
+  "name" : "get all tourist",
+  "historyId" : "fc0102f5aade7c4bc1cbeb576ab65e36",
+  "time" : {
+    "start" : 1659995071999,
+    "stop" : 1659995072677,
+    "duration" : 678
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":2,\"per_page\":10,\"totalrecord\":23211,\"total_pages\":2322,\"data\":[{\"id\":138132,\"tourist_name\":\"traveler\",\"tourist_email\":\"travelerlover@gmail.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T05:44:30.1127012\"},{\"id\":138128,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration30@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:59:23.9204956\"},{\"id\":138127,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration29@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:59:21.8067072\"},{\"id\":138122,\"tourist_name\":\"Tester\",\"tourist_email\":\"solutionfindersapi114@apirest1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:01:12.6472754\"},{\"id\":138121,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration11@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:18.6847832\"},{\"id\":138120,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration10@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:16.2900243\"},{\"id\":138119,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration9@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:16.0451379\"},{\"id\":138116,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration7@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:47.0924284\"},{\"id\":138115,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration6@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:45.1935194\"},{\"id\":138114,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration5@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:44.9576823\"}]} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":2,\"per_page\":10,\"totalrecord\":23211,\"total_pages\":2322,\"data\":[{\"id\":138132,\"tourist_name\":\"traveler\",\"tourist_email\":\"travelerlover@gmail.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T05:44:30.1127012\"},{\"id\":138128,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration30@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:59:23.9204956\"},{\"id\":138127,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration29@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:59:21.8067072\"},{\"id\":138122,\"tourist_name\":\"Tester\",\"tourist_email\":\"solutionfindersapi114@apirest1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T04:01:12.6472754\"},{\"id\":138121,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration11@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:18.6847832\"},{\"id\":138120,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration10@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:16.2900243\"},{\"id\":138119,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration9@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:57:16.0451379\"},{\"id\":138116,\"tourist_name\":\"Tester245\",\"tourist_email\":\"restassuredapi.registration7@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:47.0924284\"},{\"id\":138115,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration6@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:45.1935194\"},{\"id\":138114,\"tourist_name\":\"Tester\",\"tourist_email\":\"restassuredapi.registration5@restassuredapi1.com\",\"tourist_location\":\"USA\",\"createdat\":\"2022-08-05T03:24:44.9576823\"}]} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1659995072666,
+        "stop" : 1659995072667,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "response must be valid and have a body",
+      "time" : {
+        "start" : 1659995072669,
+        "stop" : 1659995072669,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "56fa80916dbd6ecf",
+      "name" : "test_scrpt",
+      "source" : "56fa80916dbd6ecf.txt",
+      "type" : "text/plain",
+      "size" : 254
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "api/Tourist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f76cfb97298ec6d5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,52 @@
+{
+  "uid" : "df9ad2af15418fab",
+  "name" : "Get Tourist by Id",
+  "historyId" : "48e3cfbfeba0d968f3fcd1899ca55be7",
+  "time" : {
+    "start" : 1659995073353,
+    "stop" : 1659995073600,
+    "duration" : 247
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist/138089 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 404 - Not Found </b> </p> <p > <pre style=\"color:Orange;\"> <b>  </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist/138089 </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 404 - Not Found </b> </p> <p > <pre style=\"color:Orange;\"> <b>  </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47b7bf030dd272cf",
+      "name" : "test_scrpt",
+      "source" : "47b7bf030dd272cf.txt",
+      "type" : "text/plain",
+      "size" : 228
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "api/Tourist/138089"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df9ad2af15418fab.json",
+  "parameterValues" : [ ]
+}

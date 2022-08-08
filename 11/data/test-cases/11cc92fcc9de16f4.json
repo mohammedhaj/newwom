@@ -1,0 +1,97 @@
+{
+  "uid" : "11cc92fcc9de16f4",
+  "name" : "get all tourist inexist data",
+  "historyId" : "10819a6ff81d095b4c9db0b40aff75a3",
+  "time" : {
+    "start" : 1659995072681,
+    "stop" : 1659995073063,
+    "duration" : 382
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":50000,\"per_page\":10,\"totalrecord\":0,\"total_pages\":1,\"data\":[]} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\">  </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":50000,\"per_page\":10,\"totalrecord\":0,\"total_pages\":1,\"data\":[]} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1659995073057,
+        "stop" : 1659995073057,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "response must be valid and have a body",
+      "time" : {
+        "start" : 1659995073059,
+        "stop" : 1659995073059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "The response has all properties",
+      "time" : {
+        "start" : 1659995073059,
+        "stop" : 1659995073059,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fe9a82bcaaff9295",
+      "name" : "test_scrpt",
+      "source" : "fe9a82bcaaff9295.txt",
+      "type" : "text/plain",
+      "size" : 471
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "api/Tourist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "11cc92fcc9de16f4.json",
+  "parameterValues" : [ ]
+}
