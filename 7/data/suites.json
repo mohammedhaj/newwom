@@ -1,0 +1,70 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "get all tourist",
+    "uid" : "6b9f68b4ee75480a",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659993892416,
+      "stop" : 1659993893090,
+      "duration" : 674
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "get all tourist inexist data",
+    "uid" : "b175b6c5dbaf9179",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659993893102,
+      "stop" : 1659993893488,
+      "duration" : 386
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Post Tourist",
+    "uid" : "b79bf9fd089cf1dd",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659993893491,
+      "stop" : 1659993893762,
+      "duration" : 271
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Get Tourist by Id",
+    "uid" : "665d129e8826e6c1",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659993893765,
+      "stop" : 1659993894008,
+      "duration" : 243
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Delete Tourist",
+    "uid" : "ae7f817f5c02e89b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659993894011,
+      "stop" : 1659993894253,
+      "duration" : 242
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "suites"
+}
