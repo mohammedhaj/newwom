@@ -42,7 +42,7 @@ jobs:
         - name: list directory
           run: ls -al    allure_last_history 
         - name:     Copy last_history to allure-results
-          run: cp allure_last_history/last_history allure-results/history
+          run: cp allure_last_history/last-history allure-results/history
         - name: Get Allure history
           uses: actions/checkout@v2
           if: always()
