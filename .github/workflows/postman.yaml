@@ -39,6 +39,8 @@ jobs:
           with:
             ref: 'gh-pages'
             path: 'allure_last_history'
+        - name: list directory
+          run: ls -al    
         - name:     Copy last_history to allure-results
           run: cp allure_last_history/last_history allure-results/history
         - name: Get Allure history
