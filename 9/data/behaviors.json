@@ -4,39 +4,39 @@
     "name" : "api/Tourist",
     "children" : [ {
       "name" : "get all tourist",
-      "uid" : "8600545c5f682661",
+      "uid" : "3d99643ccaeac680",
       "parentUid" : "2f31dbd434ef96bf1145af6cb680836d",
       "status" : "passed",
       "time" : {
-        "start" : 1659994233814,
-        "stop" : 1659994234516,
-        "duration" : 702
+        "start" : 1659994416891,
+        "stop" : 1659994417652,
+        "duration" : 761
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "get all tourist inexist data",
-      "uid" : "1ff21f6a7831285b",
+      "uid" : "f19396b8e671cead",
       "parentUid" : "2f31dbd434ef96bf1145af6cb680836d",
       "status" : "passed",
       "time" : {
-        "start" : 1659994234520,
-        "stop" : 1659994234906,
-        "duration" : 386
+        "start" : 1659994417655,
+        "stop" : 1659994418036,
+        "duration" : 381
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Post Tourist",
-      "uid" : "e6b10c9725d9fe3a",
+      "uid" : "a1673c66f586e1e6",
       "parentUid" : "2f31dbd434ef96bf1145af6cb680836d",
       "status" : "passed",
       "time" : {
-        "start" : 1659994234909,
-        "stop" : 1659994235209,
-        "duration" : 300
+        "start" : 1659994418038,
+        "stop" : 1659994418339,
+        "duration" : 301
       },
       "flaky" : false,
       "newFailed" : false,
@@ -47,26 +47,26 @@
     "name" : "api/Tourist/138089",
     "children" : [ {
       "name" : "Get Tourist by Id",
-      "uid" : "4c436b272d9dfc03",
+      "uid" : "ac1224b6032150ab",
       "parentUid" : "da4d24dc97262edd511b895a9d4df132",
       "status" : "passed",
       "time" : {
-        "start" : 1659994235213,
-        "stop" : 1659994235476,
-        "duration" : 263
+        "start" : 1659994418342,
+        "stop" : 1659994418608,
+        "duration" : 266
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "Delete Tourist",
-      "uid" : "7f8d429a88729a9d",
+      "uid" : "dc7e1ebb390fb910",
       "parentUid" : "da4d24dc97262edd511b895a9d4df132",
       "status" : "passed",
       "time" : {
-        "start" : 1659994235479,
-        "stop" : 1659994235742,
-        "duration" : 263
+        "start" : 1659994418611,
+        "stop" : 1659994418875,
+        "duration" : 264
       },
       "flaky" : false,
       "newFailed" : false,

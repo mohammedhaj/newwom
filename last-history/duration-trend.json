@@ -3,6 +3,13 @@
   "reportUrl" : "https://mohammedhaj.github.io/newwom/9/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 1984
+  }
+}, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://mohammedhaj.github.io/newwom/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 1928
   }
 }, {

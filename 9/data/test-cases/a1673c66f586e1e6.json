@@ -1,0 +1,88 @@
+{
+  "uid" : "a1673c66f586e1e6",
+  "name" : "Post Tourist",
+  "historyId" : "bbb0e667522b436e228d8d74815ee66d",
+  "time" : {
+    "start" : 1659994418038,
+    "stop" : 1659994418339,
+    "duration" : 301
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n\r\n                \"tourist_name\": \"Mike\",\r\n                \"tourist_email\": \"test2@hot.com\",\r\n                \"tourist_location\": \"Paris\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"Message\":\"Pleae try with different email address!\"} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> POST - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b> {\r\n\r\n                \"tourist_name\": \"Mike\",\r\n                \"tourist_email\": \"test2@hot.com\",\r\n                \"tourist_location\": \"Paris\"\r\n} </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 400 - Bad Request </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"Message\":\"Pleae try with different email address!\"} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "response must be valid and have a body",
+      "time" : {
+        "start" : 1659994418336,
+        "stop" : 1659994418336,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "The response has all properties",
+      "time" : {
+        "start" : 1659994418337,
+        "stop" : 1659994418337,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "fb767ed27328576",
+      "name" : "pre_request",
+      "source" : "fb767ed27328576.txt",
+      "type" : "text/plain",
+      "size" : 98
+    }, {
+      "uid" : "6fb5e0e0edec56ff",
+      "name" : "test_scrpt",
+      "source" : "6fb5e0e0edec56ff.txt",
+      "type" : "text/plain",
+      "size" : 602
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "api/Tourist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a1673c66f586e1e6.json",
+  "parameterValues" : [ ]
+}

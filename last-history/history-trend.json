@@ -11,6 +11,18 @@
     "total" : 5
   }
 }, {
+  "buildOrder" : 9,
+  "reportUrl" : "https://mohammedhaj.github.io/newwom/9/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
   "buildOrder" : 8,
   "reportUrl" : "https://mohammedhaj.github.io/newwom/8/",
   "reportName" : "Allure Report with history",
