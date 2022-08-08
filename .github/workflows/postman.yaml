@@ -30,7 +30,17 @@ jobs:
           run: |
             newman run  https://api.getpostman.com/collections/19980843-e1ea76f0-dc90-4e50-9992-f68ac667e706?apikey=${{ secrets.postmanApiKey }} \
             -r slackreporter,allure --reporter-allure-export allure-results --reporter-slackreporter-webhookurl ${{ secrets.SLACK_WEBHOOK_URL }}  
-
+       
+        - name: Create a floder
+          run: mkdir allure_last_history
+        - name: Checkout gh-pages
+          if: success() || failure()
+          uses: actions/checkout@v3
+          with:
+            ref: 'gh-pages'
+            path: 'allure_last_history'
+        - name:     Copy last_history to allure-results
+          run: copy allure_last_history/last_history allure-results/history
         - name: Get Allure history
           uses: actions/checkout@v2
           if: always()
