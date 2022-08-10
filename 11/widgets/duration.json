@@ -1,50 +1,50 @@
 [ {
-  "uid" : "3b745b195230db0f",
+  "uid" : "74c2d7b493743060",
   "name" : "Post Tourist",
   "time" : {
-    "start" : 1660036612074,
-    "stop" : 1660036612357,
-    "duration" : 283
+    "start" : 1660122722426,
+    "stop" : 1660122722726,
+    "duration" : 300
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "933a8ad19fb52f1a",
-  "name" : "get all tourist",
-  "time" : {
-    "start" : 1660036610829,
-    "stop" : 1660036611633,
-    "duration" : 804
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abae4f508a0f6846",
-  "name" : "Delete Tourist",
-  "time" : {
-    "start" : 1660036612613,
-    "stop" : 1660036612861,
-    "duration" : 248
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "479dc8f935d62f8f",
+  "uid" : "a1a078587e1d511e",
   "name" : "get all tourist inexist data",
   "time" : {
-    "start" : 1660036611639,
-    "stop" : 1660036612071,
-    "duration" : 432
+    "start" : 1660122722015,
+    "stop" : 1660122722423,
+    "duration" : 408
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1775ac413cf7b1c7",
+  "uid" : "312851c6e1155291",
   "name" : "Get Tourist by Id",
   "time" : {
-    "start" : 1660036612360,
-    "stop" : 1660036612610,
-    "duration" : 250
+    "start" : 1660122722729,
+    "stop" : 1660122723011,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "998903dd7b3502ad",
+  "name" : "get all tourist",
+  "time" : {
+    "start" : 1660122721267,
+    "stop" : 1660122722007,
+    "duration" : 740
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78ee184c0f5ee8ba",
+  "name" : "Delete Tourist",
+  "time" : {
+    "start" : 1660122723014,
+    "stop" : 1660122723305,
+    "duration" : 291
   },
   "status" : "passed",
   "severity" : "normal"
