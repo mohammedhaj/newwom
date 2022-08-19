@@ -2,65 +2,65 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
     "name" : "get all tourist",
-    "uid" : "998903dd7b3502ad",
+    "uid" : "961de1156c5a0560",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1660122721267,
-      "stop" : 1660122722007,
-      "duration" : 740
+      "start" : 1660920849529,
+      "stop" : 1660920850201,
+      "duration" : 672
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "get all tourist inexist data",
-    "uid" : "a1a078587e1d511e",
+    "uid" : "bf4c960d6eef1008",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1660122722015,
-      "stop" : 1660122722423,
-      "duration" : 408
+      "start" : 1660920850210,
+      "stop" : 1660920850583,
+      "duration" : 373
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Post Tourist",
-    "uid" : "74c2d7b493743060",
+    "uid" : "a36e1e9027db063f",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1660122722426,
-      "stop" : 1660122722726,
-      "duration" : 300
+      "start" : 1660920850585,
+      "stop" : 1660920850862,
+      "duration" : 277
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Get Tourist by Id",
-    "uid" : "312851c6e1155291",
+    "uid" : "5655335d5b27b177",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1660122722729,
-      "stop" : 1660122723011,
-      "duration" : 282
+      "start" : 1660920850865,
+      "stop" : 1660920851107,
+      "duration" : 242
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "Delete Tourist",
-    "uid" : "78ee184c0f5ee8ba",
+    "uid" : "8a9d29fc86e22f4d",
     "parentUid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
     "status" : "passed",
     "time" : {
-      "start" : 1660122723014,
-      "stop" : 1660122723305,
-      "duration" : 291
+      "start" : 1660920851110,
+      "stop" : 1660920851352,
+      "duration" : 242
     },
     "flaky" : false,
     "newFailed" : false,
