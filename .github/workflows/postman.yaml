@@ -1,6 +1,6 @@
 name: Workflow Postman Collection with Slack Notifications
 
-on: ['push']
+on: workflow_dispatch
 
 jobs:
     postman-github:
