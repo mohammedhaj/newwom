@@ -1,0 +1,82 @@
+{
+  "uid" : "15bac9c01117f46c",
+  "name" : "get all tourist",
+  "historyId" : "818677564d223eb2cdf3d3f7e29850b4",
+  "time" : {
+    "start" : 1660921168018,
+    "stop" : 1660921168804,
+    "duration" : 786
+  },
+  "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":2,\"per_page\":10,\"totalrecord\":24539,\"total_pages\":2454,\"data\":[{\"id\":141506,\"tourist_name\":\"Mike Update Hbl\",\"tourist_email\":\"mike2049@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:03:02.3518002\"},{\"id\":141505,\"tourist_name\":\"Mikel\",\"tourist_email\":\"0693@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:02:58.3667417\"},{\"id\":141504,\"tourist_name\":\"Mike\",\"tourist_email\":\"3269@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:02:58.1268807\"},{\"id\":141502,\"tourist_name\":\"Mike Update\",\"tourist_email\":\"mike4435@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:01:33.2070085\"},{\"id\":141501,\"tourist_name\":\"Mikel\",\"tourist_email\":\"2778@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:00:34.3067341\"},{\"id\":141500,\"tourist_name\":\"Mike\",\"tourist_email\":\"2901@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:00:34.0700156\"},{\"id\":141499,\"tourist_name\":\"Mikel\",\"tourist_email\":\"9891@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:59:08.9567947\"},{\"id\":141498,\"tourist_name\":\"Mike\",\"tourist_email\":\"8617@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:59:08.7309268\"},{\"id\":141497,\"tourist_name\":\"Mike Update\",\"tourist_email\":\"mike7383@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:58:21.0415465\"},{\"id\":141496,\"tourist_name\":\"Mike\",\"tourist_email\":\"5201@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:57:09.6788618\"}]} </b> </pre> </p>",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "descriptionHtml" : "<p style=\"color:MediumPurple;\"> <b>  </b> </p> <h4 style=\"color:DodgerBlue;\"><b><i>Request:</i></b></h4> <p style=\"color:DodgerBlue\"> <b> GET - http://restapi.adequateshop.com/api/Tourist </b> </p>  <table> <tr> <th style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;color:Orange;\"> raw </th> <td style=\"border: 1px solid #dddddd;text-align: left;padding: 8px;\"> <pre style=\"color:Orange\"> <b>  </b> </pre> </td> </tr>  </table> </p> <h4 style=\"color:DodgerBlue;\"> <b> <i> Response: </i> </b> </h4> <p style=\"color:DodgerBlue\"> <b> 200 - OK </b> </p> <p > <pre style=\"color:Orange;\"> <b> {\"page\":2,\"per_page\":10,\"totalrecord\":24539,\"total_pages\":2454,\"data\":[{\"id\":141506,\"tourist_name\":\"Mike Update Hbl\",\"tourist_email\":\"mike2049@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:03:02.3518002\"},{\"id\":141505,\"tourist_name\":\"Mikel\",\"tourist_email\":\"0693@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:02:58.3667417\"},{\"id\":141504,\"tourist_name\":\"Mike\",\"tourist_email\":\"3269@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:02:58.1268807\"},{\"id\":141502,\"tourist_name\":\"Mike Update\",\"tourist_email\":\"mike4435@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:01:33.2070085\"},{\"id\":141501,\"tourist_name\":\"Mikel\",\"tourist_email\":\"2778@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:00:34.3067341\"},{\"id\":141500,\"tourist_name\":\"Mike\",\"tourist_email\":\"2901@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T13:00:34.0700156\"},{\"id\":141499,\"tourist_name\":\"Mikel\",\"tourist_email\":\"9891@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:59:08.9567947\"},{\"id\":141498,\"tourist_name\":\"Mike\",\"tourist_email\":\"8617@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:59:08.7309268\"},{\"id\":141497,\"tourist_name\":\"Mike Update\",\"tourist_email\":\"mike7383@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:58:21.0415465\"},{\"id\":141496,\"tourist_name\":\"Mike\",\"tourist_email\":\"5201@gmail.com\",\"tourist_location\":\"Paris\",\"createdat\":\"2022-08-19T12:57:09.6788618\"}]} </b> </pre> </p>",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Status code is 200",
+      "time" : {
+        "start" : 1660921168797,
+        "stop" : 1660921168797,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "response must be valid and have a body",
+      "time" : {
+        "start" : 1660921168799,
+        "stop" : 1660921168799,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "83999eabf69cd5d4",
+      "name" : "test_scrpt",
+      "source" : "83999eabf69cd5d4.txt",
+      "type" : "text/plain",
+      "size" : 254
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "api/Tourist"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "15bac9c01117f46c.json",
+  "parameterValues" : [ ]
+}
